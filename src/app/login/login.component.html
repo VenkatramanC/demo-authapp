@@ -1,0 +1,25 @@
+
+<div class="login-section">
+  <div class="ui-g">
+    <div class="ui-g-4 ui-g-offset-4 login-form">
+      <p class="text-center">Login Form</p>
+      <div class="login-fields">
+        <span>
+          <p>Name: </p>
+          <input type="name" [(ngModel)]="userName">
+        </span>
+      </div>
+      <div class="login-fields">
+        <span> 
+          <p>
+            Password:
+          </p>
+          <input type="password" [(ngModel)]="password">
+        </span>
+      </div>
+      <div class="login-submit">
+        <p-button label="Submit" (onClick)="handleClick($event)"></p-button>
+      </div>
+    </div>
+  </div>
+</div>  

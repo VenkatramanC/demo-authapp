@@ -1,0 +1,13 @@
+@import '../../assets/styles/variables.scss';
+.dashboardSection{
+    padding: 15px 5px;
+    img{
+        height: 60%;
+        width: 60%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 10px;
+    }
+}

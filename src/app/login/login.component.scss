@@ -1,0 +1,14 @@
+@import '../../assets/styles/variables.scss';
+
+.login-section{
+  .login-form{
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding: 0 45px;     
+    border: 1px solid $border-color;
+  }
+  .login-submit{
+    margin: 10px 0;
+  }
+}

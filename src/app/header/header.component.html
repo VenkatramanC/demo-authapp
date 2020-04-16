@@ -1,0 +1,14 @@
+<div class="header-section">
+  <div class="ui-g">
+    <div class="ui-g-9">
+      <span>
+        <a href="">User App</a>
+      </span>
+    </div>
+    <div class="ui-g-3 pull-right">
+      <span *ngIf="display">
+        <a href="" (click)="onLogoutClick($event)">Log out</a>
+      </span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+
+<div class="dashboardSection">
+  <div class="ui-g" *ngIf="userInfo">
+    <div class="ui-g-3 userCard">
+      <p-card header="User Information">
+        <p-header>
+          <img [src]="userInfo?.avatar" alt="">
+        </p-header>
+        <div class="userInformationCard">
+          <p>Email: {{userInfo?.email}}</p>
+          <p>First Name: {{userInfo?.first_name}}</p>
+          <p>last Name: {{userInfo?.last_name}}</p> 
+        </div>
+    </p-card>
+    </div>
+  </div>
+</div>
